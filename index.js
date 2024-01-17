@@ -59,4 +59,8 @@ const play = () => {
 
 /* 2. */
 
+playBtn.addEventListener("click", (play) => {
+  console.log("Clicked!")
+})
+
 /* ------------------------------- */
