@@ -32,15 +32,15 @@ const insertHTML = (choice1, choice2, result) => {
 const decideWinner = (a, b) => {
   if ((a === '✊' && b === '✊') || (a === '🤚' && b === '🤚') || (a === '✌️' && b === '✌️')) {
 
-    /* 3a. */ return "?";
+    /* 3a. */ return "It's a tie!";
 
   } else if ((a === '✊' && b === '✌️') || (a === '🤚' && b === '✊') || (a === '✌️' && b === '🤚')) {
 
-    /* 3b. */ return "?";
+    /* 3b. */ return "Player 1 wins!";
 
   } else {
 
-    /* 3c. */ return "?";
+    /* 3c. */ return "Player 2 wins!";
 
   }
 };
@@ -59,8 +59,6 @@ const play = () => {
 
 /* 2. */
 
-playBtn.addEventListener("click", (play) => {
-  console.log("Clicked!")
-})
+playBtn.addEventListener("click", (play));
 
 /* ------------------------------- */
