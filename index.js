@@ -3,13 +3,13 @@ const choices = ['✊', '🤚', '✌️'];
 const player1 = document.getElementById('player-1');
 
 /* 1a. */
-const player2 = '?';
+const player2 = document.getElementById('player-2');
 
 /* 1b. */
-const resultArea = '?';
+const resultArea = document.getElementById('result-area');
 
 /* 1c. */
-const playBtn = '?';
+const playBtn = document.getElementById('play-btn');
 
 /* This will help check your results */
 console.log(player2, resultArea, playBtn);
